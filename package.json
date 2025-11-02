@@ -7,6 +7,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-		"start:firefox": "web-ext run --source-dir ."
+    "start:firefox": "web-ext run --source-dir ."
+  },
+  "devDependencies": {
+    "web-ext": "^9.1.0"
   }
 }
