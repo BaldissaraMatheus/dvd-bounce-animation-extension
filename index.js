@@ -10,6 +10,24 @@ function updateColor() {
 	target.style.filter = `invert(1) sepia(38%) saturate(2000%) hue-rotate(${hutRotate}deg) brightness(100%) contrast(100%)`
 }
 
+function setup() {
+	const maxTop = window.innerHeight - target.clientHeight;
+	const maxLeft = window.innerWidth - target.clientWidth;
+	const randomStartTop = Math.round(Math.random() * maxTop);
+	const randomStartLeft = Math.round(Math.random() * maxLeft);
+	targetTop = randomStartTop;
+	targetLeft = randomStartLeft;
+	target.style.top = `${targetTop}px`;
+	target.style.left = `${targetLeft}px`;
+	const randomDirectionTop = Math.random() < 0.5 ? -1 : 1;
+	const randomDirectionLeft = Math.random() < 0.5 ? -1 : 1;
+	directionTop = randomDirectionTop;
+	directionLeft = randomDirectionLeft;
+	updateColor();
+}
+
+setup();
+
 function updatePositions() {
 	setTimeout(() => {
 		targetTop += directionTop;

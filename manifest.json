@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "DVD bounce blank page",
   "short_name": "DVD bounce",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Adds DVD bounce animation to the blank page",
   "chrome_url_overrides": {
     "newtab": "index.html"
