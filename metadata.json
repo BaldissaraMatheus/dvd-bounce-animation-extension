@@ -1,0 +1,13 @@
+{
+  "version": { "license": "MIT" },
+  "categories": { "firefox": ["tabs"] },
+	"summary": {
+		"en-US": "Adds DVD bounce animation to the blank page",
+		"pt-BR": "Adiciona animação de DVD em nova aba"
+	},
+  "contributions_url": "https://github.com/sponsors/BaldissaraMatheus",
+  "requires_payment": false,
+  "homepage": {
+    "en-US": "https://github.com/BaldissaraMatheus/dvd-bounce-animation-extension"
+  }
+}

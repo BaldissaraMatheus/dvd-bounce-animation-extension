@@ -1,7 +1,7 @@
 {
   "name": "dvd-bounce-extension",
   "version": "1.0.0",
-  "description": "Extension that adds DVD bounce animation to the blank page",
+  "description": "Adds DVD bounce animation to the blank page",
   "license": "MIT",
   "author": "Matheus Baldissara",
   "type": "commonjs",
