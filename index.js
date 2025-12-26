@@ -11,8 +11,8 @@ function updateColor() {
 }
 
 function setup() {
-	const maxTop = window.innerHeight - target.clientHeight;
-	const maxLeft = window.innerWidth - target.clientWidth;
+	const maxTop = window.innerHeight - target.clientHeight - 5;
+	const maxLeft = window.innerWidth - target.clientWidth - 5;
 	const randomStartTop = Math.round(Math.random() * maxTop);
 	const randomStartLeft = Math.round(Math.random() * maxLeft);
 	targetTop = randomStartTop;
